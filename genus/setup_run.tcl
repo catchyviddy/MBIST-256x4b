@@ -151,5 +151,3 @@ set_db qrc_tech_file qrcTechFile_typ03_scaled4xV06
 
 
 set_db / .lp_insert_clock_gating true 
-
-
