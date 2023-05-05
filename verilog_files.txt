@@ -1,0 +1,8 @@
+/home/vps4038/project_mbist/bist_controller.v
+/home/vps4038/project_mbist/comp.v
+/home/vps4038/project_mbist/counter.v
+/home/vps4038/project_mbist/decoder.v
+/home/vps4038/project_mbist/mux.v
+/home/vps4038/project_mbist/sram.v
+/home/vps4038/project_mbist/mbist_wrapper.v
+/home/vps4038/project_mbist/mbist_tb.v
