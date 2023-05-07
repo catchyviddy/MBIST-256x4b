@@ -6,3 +6,5 @@ set_max_fanout 1 [all_inputs]
 set_fanout_load 8 [all_outputs]
 set_clock_uncertainty .01 [all_clocks]
 set_clock_latency 0.01 -source [get_ports clk]
+
+
