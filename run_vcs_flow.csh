@@ -11,6 +11,7 @@ else
 endif
 
 mkdir -p /var/tmp/vps4038_ec6443/
+mkdir -p ~/verilog_sim/
 cd /var/tmp/vps4038_ec6443/
 echo "Starting VCS"
 vcs -full64 -kdb $1 -lca -debug_access+all
