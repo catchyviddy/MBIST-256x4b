@@ -1,4 +1,5 @@
-create_clock -period 0.6 -name clk [get_ports clk]
+set_units -time ns
+create_clock -period 0.35 -name clk [get_ports clk]
 set_input_delay 0.1 -clock clk [all_inputs]
 set_output_delay 0.15 -clock clk [all_outputs]
 set_load 0.1 [all_outputs]
