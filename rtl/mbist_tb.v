@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //Testbench
 module mbist_tb #(parameter wcount=256, wlength=4)();

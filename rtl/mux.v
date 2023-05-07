@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //MUX:
 module mux #(parameter length=4)(

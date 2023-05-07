@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //Comparator:
 module comparator #(parameter wlength=4)(

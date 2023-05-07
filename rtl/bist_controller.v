@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //BIST CONTROLLER:
 module BIST_controller (

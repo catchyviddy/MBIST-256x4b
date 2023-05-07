@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //CB/RCB DECODER:
 module decoder #(parameter wlength=4)(

@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 //TOP LEVEL MODULE DESIGN:
 
@@ -123,7 +122,12 @@ comparator #(.wlength(wlength)) COMP (
 always @(posedge clk) begin
   if (rst) fail <= 1'b0;
   else begin
-    if (tmode_ppln[7] && ~rwbartest_ppln[6]) fail <= ~eq;
+    if (tmode_ppln[7] && ~rwbartest_ppln[6]) begin
+      case(eq)
+      'd1: fail <= 1'b0;
+      default: fail <= 1'b1;
+      endcase
+    end
     else fail <= 1'b0;
   end
 end
