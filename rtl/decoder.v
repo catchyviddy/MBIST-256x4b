@@ -15,7 +15,7 @@ always@(posedge clk) begin
     'd0: out_temp_reg <= {wlength/4{4'b0000}};
     'd1: out_temp_reg <= {wlength/4{4'b0101}};
     'd2: out_temp_reg <= {wlength/4{4'b0011}};
-    default: out_temp_reg <= {wlength{1'bz}};
+    default: out_temp_reg <= {wlength{1'bx}};
   endcase
   negate <= in[3]~^in[0];
   out <= negate ? ~out_temp_reg : out_temp_reg;
